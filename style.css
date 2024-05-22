@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('ka.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+h1{
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+.container {
+    text-align: center;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(6, 6, 6);
+    border-radius: 20px;
+    display: flex;
+    background-color: #ffffffca;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#restart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #fb00ff6f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restart-btn:hover {
+    background-color: #b300aa1e;
+}
+#background-image {
+    background-image: url('gambarr.jpg'); /* Ganti dengan path gambar yang diinginkan */
+    background-size: cover;
+}
